@@ -50,6 +50,13 @@ const items = [
 // },0)
 // console.log(total)
 
+// let data = [1,2,3,4];
+// const sum1 = (data) => console.log(data.reduce((prev,current) => prev + current));
+// sum1(data);
+
+// const sum2 = (...args) => console.log(args.reduce((prev,current) => prev + current));
+// sum2(1,2,3,4);
+
 // INCLUDES
 // const items2 = [1,2,3,4,5,8,9]
 
