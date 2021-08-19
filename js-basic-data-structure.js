@@ -117,3 +117,27 @@ console.log(fruits.indexOf('pears')); // output 1 artinya ada dan berada pada in
 
 // SELENGKAPNYA
 https://dev.to/cenacr007_harsh/basic-data-structures-in-javascript-arrays-and-objects-3mln
+
+// TAMBAHAN
+const data = [1,2,3,4];
+
+// for(let i=0; i<data.length; i++){
+//   console.log(data[i]);
+// }
+
+// for(let i in data) {
+//   console.log(data[i]);
+// }
+
+// for(let i of data) {
+//   console.log(i);
+// }
+
+// MENGUBAH STRING KE ARRAY 
+const data2 = '123';
+
+console.log(data2.split('').toString()); // convert array ke string
+console.log(data.toString().replace(/,/g, ''));
+// console.log(data.toString());
+
+
